@@ -27,4 +27,4 @@ A MERN web app where recruiters can post jobs and candidates apply to those jobs
 ### Web App screens
 
 *Landing Page*
-<img src="/screenshots/landing-page">
+<img src="/screenshots/landing-page.png">
