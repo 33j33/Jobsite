@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: "Inter";
+    background-color: var(--clr-purple-dark);
+    color: var(--clr-card-bg);
+    width: 100%;
+
+}
+.navbar .brand {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: var(--ft-size-3);
+}
+.navbar .brand .link {
+    text-decoration: none;
+    color: var(--clr-card-bg);
+}
+.navbar .items {
+    display: flex;
+    align-items: center;
+    gap: 0 .5rem;
+}
+.navbar .items .btn {
+    outline: none;
+    background: var(--clr-pink);
+    color: var(--clr-card-bg);
+    border: .3px solid black;
+    padding: .5rem;
+    border-radius: 5px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: var(--ft-size-7);
+    cursor: pointer;
+    width: max-content;
+    max-height: 2rem;
+}
+.navbar .items .btn .link {
+    text-decoration: none;
+    color: var(--clr-card-bg);
+}
+.navbar .items .btn:hover {
+    filter: brightness(1.2);
+}
+.navbar .items .name {
+    font-size: var(--ft-size-6);
+    font-family: "Roboto Condensed";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar .items .name span{
+    font-size: var(--ft-size-7);
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .items {
+        margin-top: 1rem;
+    }
+}

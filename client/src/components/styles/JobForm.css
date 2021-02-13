@@ -1,0 +1,114 @@
+.jobForm {
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Inter";
+}
+
+.jobForm .jobForm-form {
+width: 40rem;
+padding: 1rem;
+box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+background: var(--clr-card-bg);
+}
+
+.jobForm .jobForm-form .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.jobForm .jobForm-form .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobForm .jobForm-form .title {
+text-align: center;
+margin-bottom: 1rem;
+}
+
+.jobForm-subtext {
+font-size: var(--ft-size-6);
+display: block;
+margin: 0.5rem 0;
+}
+
+.jobForm .form-group,
+.jobForm .form-group label,
+.jobForm .form-group input, 
+.jobForm .form-group textarea {
+width: 18rem;
+margin-bottom: 0.5rem;
+}
+.jobForm .form-group #description{
+    width: 38rem;
+    font-family: "Inter";
+}
+.jobForm .form-group label {
+font-size: var(--ft-size-6);
+}
+
+.jobForm .form-group input,
+.jobForm .form-group textarea {
+padding: 10px 20px;
+border: none;
+border-bottom: 3px solid transparent;
+background-color: var(--clr-light-gray);
+outline-width: 0;
+font-size: var(ft-size-5);
+}
+
+.jobForm .form-group input:focus,
+.jobForm .form-group textarea:focus {
+border-bottom: 3px solid var(--clr-purple-dark);
+}
+
+.jobForm .jobForm-form .col .btn-row {
+    display: flex;
+    justify-content: flex-end;
+}
+.jobForm .btn {
+padding: 10px 20px;
+cursor: pointer;
+width: max-content;
+font-size: var(--ft-size-5);
+border: none;
+float: right;
+}
+
+.jobForm .btn:hover {
+opacity: 0.8;
+}
+
+.jobForm .btn-primary {
+background-color: var(--clr-purple-dark);
+color: var(--clr-card-bg);
+}
+.jobForm .btn-primary .link{
+    text-decoration: none;
+    color: var(--clr-card-bg);
+}
+
+.jobForm .error-message {
+width: 100%;
+display: inline-block;
+padding: 5px;
+background: var(--clr-purple-light);
+border: 1px solid var(--clr-purple-dark);
+color: var(--clr-card-bg);
+text-align: center;
+margin: 0.5rem 0;
+}
+@media only screen and (max-width: 600px){
+    .jobForm .jobForm-form {
+        width: 20rem;
+    }
+    .jobForm .jobForm-form .row {
+        flex-direction: column;
+    }
+    .jobForm .form-group #description{
+        width: 18rem;
+    }
+}

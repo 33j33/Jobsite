@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
+
+
+:root {
+  --clr-bg: #d9d4e7;
+  --clr-card-bg:white;
+  --clr-purple-light: #a786df;
+  --clr-purple: #58094e;
+  --clr-purple-dark: #360f5a;
+
+  --clr-pink: #d14171;
+
+  --clr-black: #333333;
+  --clr-dark-gray: #484848;
+  --clr-gray: #8a8a8a;
+  --clr-light-gray: #e0d8d8;
+
+  /* FONT SIZES */
+  --ft-size-1: 2.441rem;
+  --ft-size-2: 1.953rem; 
+  --ft-size-3: 1.563rem;
+  --ft-size-4: 1.25rem;
+  --ft-size-5: 1rem;
+  --ft-size-6: 0.8rem;
+  --ft-size-7: 0.64rem;
+  
+
+}
+/* (phones, 600px and down) */ 
+@media only screen and (max-width: 600px) {
+  :root {
+    --ft-size-1: 1.953rem; 
+    --ft-size-2: 1.563rem;
+    --ft-size-3: 1.25rem;
+    --ft-size-4: 1rem;
+    --ft-size-5: 0.8rem;
+    --ft-size-6: 0.64rem;
+  }
+} 
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--clr-bg);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

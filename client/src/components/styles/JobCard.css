@@ -1,0 +1,102 @@
+.job-card {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Inter";
+    background-color: var(--clr-card-bg);
+    color: var(--clr-black);
+    padding: 10px;
+    border-radius: 6px;
+    border: .5px solid var(--clr-gray);
+    box-shadow: 0 1px 4px rgba(48, 12, 82, 0.822);
+    margin: 0 10px;
+}
+
+.job-card .header .title {
+    font-weight: 600;
+    line-height: 1.3; 
+    letter-spacing: .5px;
+    font-size: var(--ft-size-4);
+}
+.job-card .header .subtitle { 
+    font-weight: 700;
+    font-size: var(--ft-size-5);
+    color: var(--clr-gray);
+}
+.job-card .header .btn {
+    outline: none;
+    background: var(--clr-purple-light);
+    color: var(--clr-purple-dark);
+    border: 1px solid var(--clr-purple);
+    padding: 5px 5px;
+    margin: 4px 0;
+    border-radius: 5px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    box-shadow: 0 1px 2px var(--clr-purple-light);
+    font-size: var(--ft-size-6);
+    cursor: pointer;
+}
+.job-card .header .btn:hover {
+    filter: brightness(1.2);
+}
+.job-card .header .btn:disabled {
+    filter: brightness(.8);
+    cursor: default;
+}
+
+.job-card .body .items {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px;
+}
+.job-card .body .items .item .item-heading {
+    font-size: var(--ft-size-6);
+    font-weight: 600;
+    letter-spacing: .3px;
+    color: var(--clr-gray);
+}
+.job-card .body .items .item .item-value {
+    font-size: var(--ft-size-6);
+    font-weight: 500;
+    color: var(--clr-dark-gray);
+    padding-left: 2px;
+}
+.job-card .body .hr{
+    width: 100%;
+    border-bottom: 1px solid var(--clr-gray);
+}
+.job-card .body .description {
+    font-size: var(--ft-size-5);
+    padding: 10px 0 5px 0;
+}
+
+.accordian {
+    border: .2px solid var(--clr-gray);
+}
+.accordian .header{
+    display: flex;
+    align-items: center;
+    background-color: #dccff1;
+}
+.accordian .header span {
+    font-size: var(--ft-size-6);
+}
+.accordian .header .btn-a {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: var(--ft-size-3);
+    color: var(--clr-purple);
+}
+ .accordian .header .btn-a.active {
+    color: var(--clr-purple-dark);
+}
+  
+.accordian .body {
+    font-size: var(--ft-size-6);
+    padding: 10px;
+}

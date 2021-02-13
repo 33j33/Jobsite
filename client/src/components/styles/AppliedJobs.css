@@ -1,0 +1,11 @@
+.jobs  {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto Condensed";
+}
+.jobs h3 {
+    font-size: var(--ft-size-1);
+    color: var(--clr-purple-dark);
+}
