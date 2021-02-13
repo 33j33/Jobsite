@@ -28,3 +28,16 @@ A MERN web app where recruiters can post jobs and candidates apply to those jobs
 
 *Landing Page*
 <img src="/screenshots/landing-page.png">
+
+
+*SignIn Page*
+<img src="/screenshots/login.png">
+
+
+*home*
+<img src="/screenshots/home.png">
+
+
+*Jog Form*
+<img src="/screenshots/job-form.png">
+
