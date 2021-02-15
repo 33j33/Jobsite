@@ -9,7 +9,7 @@ A MERN web app where recruiters can post jobs and candidates apply to those jobs
 
 1. A Landing page
 
-2. Recruiter side:
+2. Components at Recruiter's view:
    - Signup/Sigin
    - Post a job
    - View posted Jobs
@@ -17,7 +17,7 @@ A MERN web app where recruiters can post jobs and candidates apply to those jobs
    - Search Jobs
 
 
-3. Candidate side:
+3. Components at Candidate's view:
    - Signup/Sigin
    - View jobs
    - Apply to one or more jobs
