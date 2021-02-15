@@ -38,6 +38,6 @@ A MERN web app where recruiters can post jobs and candidates apply to those jobs
 <img src="/screenshots/home.png">
 
 
-*Jog Form*
+*Job Form*
 <img src="/screenshots/job-form.png">
 
