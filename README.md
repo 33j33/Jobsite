@@ -3,7 +3,7 @@ A MERN web app where recruiters can post jobs and candidates apply to those jobs
 
 ### Project Live at
 
-[jobsite](http://jobsite-12345.herokuapp.com)
+[jobsite](https://jobsite-12345.netlify.app/)
 
 #### Components and Features of the website:
 
